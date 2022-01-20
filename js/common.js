@@ -57,5 +57,12 @@ $(function(){
         header_btn_right();
     });
 
+    //main_sub_menu toggle
+    $(".eb").mouseover(function(){
+          $(this).children(".main_sub_menu").stop().fadeIn("fast");
+    }).mouseout(function(){
+          $(".main_sub_menu").stop().fadeOut("fast");
+    });
+
 });
 
