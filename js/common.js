@@ -17,5 +17,45 @@ $(function(){
                  }).mouseout(function () {
                 $(" .member").stop().fadeOut("fast");
                  });
+
+    // header_search_btn 왼쪽으로 이동
+    var i = 0;
+
+    function header_btn_left() {
+
+        i--;
+
+        if (i < 0) {
+            i = 3
+        };
+        $(".search_ad > img").stop().hide();
+        $(".search_ad> img").eq(i).stop().show();
+        $(".search_ad > span").text((i + 1) + "/4")
+
+    };
+    $(".search_ad i:last").click(function () {
+        header_btn_left();
+    });
+
+
+    // header_search_btn 오른쪽으로 이동
+    var i = 0;
+
+    function header_btn_right() {
+
+        i++;
+
+        if (i > 3) {
+            i = 0
+        };
+        $(".search_ad > img").stop().hide();
+        $(".search_ad > img").eq(i).stop().show();
+        $(".search_ad > span").text((i + 1) + "/4")
+
+    };
+    $(".search_ad > i:first").click(function () {
+        header_btn_right();
+    });
+
 });
 
