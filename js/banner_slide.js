@@ -14,5 +14,5 @@ $.ajax({
       var str2=str.substring(0,27);
 
       $(".book1").append("<p class='banner_book'>"+str2+"</p>");
-    console.log(msg);
+    
     });
