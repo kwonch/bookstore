@@ -4,7 +4,7 @@
         $(".book_box_wrap").stop().hide();
         $(".book_box_wrap").eq($(this).index()).stop().show();
 
-        $(".new>new_box>new_title>ul>li").css({
+        $(".new>.new_box>.new_title>ul>li").css({
             backgroundColor: "#fff",
             color: "#000"
         })
@@ -12,7 +12,7 @@
             backgroundColor: "#5e6b9e",
             color: "#fff"
         })
-    }).mouseleave(function () {
+        }).mouseleave(function () {
         $(".new>.new_box>.new_title>ul>li").css({
             backgroundColor: "#fff",
             color: "#000"
@@ -164,7 +164,7 @@ $.ajax({
     method: "GET",
     url: "https://dapi.kakao.com/v3/search/book?target=title",
     data: {
-        query: "음반",
+        query: "음악",
         size: 12
     },
     headers: {
