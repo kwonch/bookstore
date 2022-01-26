@@ -52,6 +52,52 @@
       $(this).parent().children(".book_contents_box").eq(i).stop().show();
 
   });
+
+    // .only_icon left버튼 슬라이드          
+    $(".only_icon_left").click(function () {
+        $(".only_icon_box:last").prependTo(".only_icon_in");
+        $(".only_icon_in").css({
+            marginLeft: -1000
+        });
+        $(".only_icon_in").stop().animate({
+            marginLeft: 0
+        }, 800);
+    });
+
+    // .only_icon right버튼 슬라이드          
+    $(".only_icon_right").click(function () {
+        $(".only_icon_in").stop().animate({
+            marginLeft: -1000
+        }, 800, function () {
+            $(".only_icon_box:first").appendTo(".only_icon_in");
+            $(".only_icon_in").css({
+                marginLeft: 0
+            });
+        });
+    });    
+ // .section_banner left버튼 슬라이드          
+ $(".slide_banner_left").click(function () {
+    $(".banner_contents_slide>img:last").prependTo(".banner_contents_slide");
+    $(".banner_contents_slide").css({
+        marginLeft: -800
+    });
+    $(".banner_contents_slide").stop().animate({
+        marginLeft: 0
+    }, 800);
+});
+
+// .section_banner right버튼 슬라이드          
+$(".slide_banner_right").click(function () {
+    $(".banner_contents_slide").stop().animate({
+        marginLeft: -800
+    }, 800, function () {
+        $(".banner_contents_slide>img:first").appendTo(".banner_contents_slide");
+        $(".banner_contents_slide").css({
+            marginLeft: 0
+        });
+    });
+});    
+
 });
 
 
