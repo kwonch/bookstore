@@ -10,7 +10,7 @@ $(function () {
             color: "#000"
         });
         $(this).css({
-            backgroundColor: "#5e6b9e",
+            backgroundColor: "#5e6b9ea8",
             color: "#fff"
         });
     }).mouseleave(function () {
@@ -19,8 +19,22 @@ $(function () {
             color: "#000"
         });
         $(this).css({
-            backgroundColor: "#5e6b9e",
+            backgroundColor: "#5e6b9ea8",
             color: "#fff"
         });
+    });
+
+
+
+    //.best_side 
+    $(".side_title> ul > li").mouseenter(function () {
+        $(".side_wrap").stop().hide();
+        $(".side_wrap").eq($(this).index()).stop().show();
+
+        $(".side_title > ul > li").removeClass();
+        $(this).addClass("side_hover");
+    }).mouseleave(function () {
+        $(".side_title > ul > li").removeClass();
+        $(this).addClass("side_hover");
     });
 });
