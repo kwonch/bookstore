@@ -15,6 +15,7 @@ $.ajax({
         $(".total>.best_seller_book").eq(i).append('<a href="#">'+"<img src='"+msg.documents[i].thumbnail+"'/>"+"</a>");
         $(".total>.best_seller_book").eq(i).append("<h3>"+'<a href="#">'+msg.documents[i].title+"</a>"+"</h3>");
         $(".total>.best_seller_book").eq(i).append("<h6>"+msg.documents[i].authors+"</h6>");
+        
 
         
     }
@@ -132,7 +133,7 @@ $.ajax({
     method: "GET",
     url: "https://dapi.kakao.com/v3/search/book?target=title",
     data: {
-        query: "Basic",
+        query: "dog",
         size: 10
     },
     headers: {
