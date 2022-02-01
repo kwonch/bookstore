@@ -5,10 +5,10 @@ $(function () {
         $(".maker_contents_box").stop().hide();
         $(".maker_contents_box").eq($(this).index()).stop().show();
 
-        $(".maker_title > ul > li").removeClass();
+        $(".maker_wrap>.maker_title > ul > li").removeClass();
         $(this).addClass("maker_slide");
     }).mouseleave(function () {
-        $(".maker_title > ul > li").removeClass();
+        $(".maker_wrap>.maker_title > ul > li").removeClass();
         $(this).addClass("maker_slide");
     });
 });
