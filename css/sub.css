@@ -1,0 +1,10 @@
+@charset "utf-8";
+.sub_purchase_wrap{width: 100%;height: auto; background-color: brown;}
+.sub_purchase{width: 1200px;height: 1000px; background-color: burlywood;margin:0 auto;}
+.category{width: 1200px;height: 50px;background-color:darkgreen; justify-content:flex-start; position: relative; }
+.category_top>.category_title{border:1px solid black; float: left;}
+.category_bottom_1{width: 500px;border: 1px solid black;height: 500px;position: absolute;top:10px;}
+
+.category_5_1{float:left;}
+.category_left_1{width:100px;float: left;}
+.category_left_1>li{ }
