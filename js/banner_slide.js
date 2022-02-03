@@ -85,8 +85,8 @@ $(function () {
         $(".slide").css("background-color", slider_bgc[i]);
         slider_main_box.stop().hide();
         slider_main_box.eq(i).stop().show();
-        $(".banner_button > ul > li").removeClass("slide_btn_hover");
-        $(".banner_button > ul > li").eq(i).addClass("slide_btn_hover");
+        $(".banner_button > ul > li").removeClass("slide_btn_hover ");
+        $(".banner_button > ul > li").eq(i).addClass("slide_btn_hover ");
     }
 
     setInterval(slider_loop, 3000)
