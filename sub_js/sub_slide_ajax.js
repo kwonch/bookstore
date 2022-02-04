@@ -14,7 +14,7 @@ $.ajax({
     for(var i=0; i<6; i++){
         $(".slide_contents_1>div").eq(i).append('<a href="#">'+"<img src='"+msg.documents[i].thumbnail+"'/>"+"</a>");
         $(".slide_contents_1>div").eq(i).append("<h5>"+'<a href="#">'+msg.documents[i].title+"</a>"+"</h5>");
-        $(".slide_contents_1>div").eq(i).append("<h6>"+msg.documents[i].price+"원</h6>");
+        $(".slide_contents_1>div").eq(i).append("<h5>"+msg.documents[i].price+"원</h5>");
         
 
         
@@ -37,7 +37,7 @@ $.ajax({
     for(var i=0; i<6; i++){
         $(".slide_contents_2>div").eq(i).append('<a href="#">'+"<img src='"+msg.documents[i].thumbnail+"'/>"+"</a>");
         $(".slide_contents_2>div").eq(i).append("<h5>"+'<a href="#">'+msg.documents[i].title+"</a>"+"</h5>");
-        $(".slide_contents_2>div").eq(i).append("<h6>"+msg.documents[i].price+"원</h6>");
+        $(".slide_contents_2>div").eq(i).append("<h5>"+msg.documents[i].price+"원</h5>");
         
 
         
@@ -60,7 +60,7 @@ $.ajax({
     for(var i=0; i<6; i++){
         $(".slide_contents_3>div").eq(i).append('<a href="#">'+"<img src='"+msg.documents[i].thumbnail+"'/>"+"</a>");
         $(".slide_contents_3>div").eq(i).append("<h5>"+'<a href="#">'+msg.documents[i].title+"</a>"+"</h5>");
-        $(".slide_contents_3>div").eq(i).append("<h6>"+msg.documents[i].price+"원</h6>");
+        $(".slide_contents_3>div").eq(i).append("<h5>"+msg.documents[i].price+"원</h5>");
         
 
         
