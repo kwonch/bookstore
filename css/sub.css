@@ -1,6 +1,6 @@
 @charset "utf-8";
 .sub_purchase_wrap{width: 100%;height: auto;}
-.sub_purchase{width: 1200px;height: 6800px; margin:0 auto;}
+.sub_purchase{width: 1200px;height: auto; margin:0 auto;}
 
 .category{width: 1200px;height: 50px; display: flex;position: relative; align-items: center;  border-bottom: 1px solid #ddd;}
 .home>span{color:rgb(102, 102, 102);margin-bottom: 10px;cursor: pointer;}
@@ -92,10 +92,10 @@
 .price>p{line-height: 30px;}
 .benefits_2{margin-left: 35px;}
 .benefits{font-size: 12px; line-height: 25px;}
-.benefits_2>span{border:1px solid #d0d0d0; padding:3px 4px 2px; cursor: pointer;;transition: 0.3s ease; }
-.benefits_2>span:hover{border-color: #a0a0a0; box-shadow: 1px 1px 1px rgb(0 0 0 / 10%)}
+.benefits_2>span{border:1px solid #d0d0d0; padding:3px 4px 2px; cursor: pointer;transition: 0.3s ease; }
+.benefits_2>span:hover{border-color: #a0a0a0; box-shadow: 1px 1px 1px black;}
 .benefits_3>span{ border:1px solid #d0d0d0; padding:3px 4px 2px; cursor: pointer;transition: 0.3s ease; }
-.benefits_3>span:hover{border-color: #a0a0a0; box-shadow: 1px 1px 1px rgb(0 0 0 / 10%)}
+.benefits_3>span:hover{border-color: #a0a0a0; box-shadow: 1px 1px 1px black;}
 .benefits_3{margin-top: 10px;}
 
 .event_title{font-size: 12px;font-weight: bold; color:#5e6b9f; margin-top: 20px;}
@@ -110,7 +110,7 @@
 .delivery_3-1{margin:10px 0px 10px 0px;}
 .delivery>span{display: inline-block; }
 .de_bo{border:1px solid #d0d0d0; margin-left: 5px; padding:2px 2px; cursor:pointer;;transition: 0.3s ease;}
-.de_bo:hover{border-color: #a0a0a0; box-shadow: 1px 1px 1px rgb(0 0 0 / 10%)}
+.de_bo:hover{border-color: #a0a0a0; box-shadow: 1px 1px 1px black;}
 .de_co{color:#3a60df;}
 
 .order{width: 100%; margin-top: 20px;}
@@ -137,7 +137,7 @@
 .book_in_slide_contents>div>h5{margin-top:10px;  color: #f04653;}
 .book_in_slide_wrap:not(:first-of-type){display: none;}
 
-#book_intro{width: 100%; height: 5520px;  margin-top: 180px;display: flex;justify-content: space-between;}
+#book_intro{width: 100%; height: auto;  margin-top: 180px;display: flex;justify-content: space-between;}
 .book_intro_left{width: 80%; height: 100%;  }
 .book_intro_right{width: 17%; height: 1550px;}
 
@@ -200,7 +200,7 @@
 .exchange{margin-left: 100px; margin-top: 20px;border-collapse: collapse;width: 80%; height: 800px; }
 .exchange tr,td{font-size: 13px;padding:6px 10px 4px;}
 .exchange th,td{border:1px solid #ddd; color:#666;line-height: 24px;padding:8px 10px 6px}
-.exchange th{color:#444; text-align: left;}
+.exchange th{color:#444; text-align: left; background-color: #eee; width: 180px;}
 .exchange ul li{list-style: disc;margin-left: 20px;}
 
 

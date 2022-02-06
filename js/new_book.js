@@ -117,13 +117,13 @@ $.ajax({
 .done(function (msg){
     for(var i=0; i<12; i++){
         $(".domestic_book>.book_contents").eq(i).append('<a href="#">'+"<img src='"+msg.documents[i].thumbnail+"'/>"+"</a>");
-        $(".domestic_book>.book_contents").eq(i).append("<h3>"+'<a href="sub2.html">'+msg.documents[i].title+"</a>"+"</h3>");
+        $(".domestic_book>.book_contents").eq(i).append("<h3>"+'<a href="#">'+msg.documents[i].title+"</a>"+"</h3>");
         $(".domestic_book>.book_contents").eq(i).append("<h6>"+msg.documents[i].authors+"</h6>");
 
         var str=msg.documents[i].contents;
         var str2=str.substring(0,30);
 
-        $(".domestic_book >.book_contents").eq(i).append("<p>"+'<a href="sub2.html">'+str2+"</a>"+"</p>")
+        $(".domestic_book >.book_contents").eq(i).append("<p>"+'<a href="#">'+str2+"</a>"+"</p>")
     }
 });
 
@@ -143,13 +143,13 @@ $.ajax({
 .done(function (msg){
     for(var i=0; i<12; i++){
         $(".foreign_book>.book_contents").eq(i).append('<a href="#">'+"<img src='"+msg.documents[i].thumbnail+"'/>"+"</a>");
-        $(".foreign_book>.book_contents").eq(i).append("<h3>"+'<a href="sub2.html">'+msg.documents[i].title+"</a>"+"</h3>");
+        $(".foreign_book>.book_contents").eq(i).append("<h3>"+'<a href="#">'+msg.documents[i].title+"</a>"+"</h3>");
         $(".foreign_book>.book_contents").eq(i).append("<h6>"+msg.documents[i].authors+"</h6>");
 
         var str=msg.documents[i].contents;
         var str2=str.substring(0,30);
 
-        $(".foreign_book >.book_contents").eq(i).append("<p>"+'<a href="sub2.html">'+str2+"</a>"+"</p>")
+        $(".foreign_book >.book_contents").eq(i).append("<p>"+'<a href="#">'+str2+"</a>"+"</p>")
     }
 });
 
@@ -169,13 +169,13 @@ $.ajax({
 .done(function (msg){
     for(var i=0; i<12; i++){
         $(".ebook>.book_contents").eq(i).append('<a href="#">'+"<img src='"+msg.documents[i].thumbnail+"'/>"+"</a>");
-        $(".ebook>.book_contents").eq(i).append("<h3>"+'<a href="sub2.html">'+msg.documents[i].title+"</a>"+"</h3>");
+        $(".ebook>.book_contents").eq(i).append("<h3>"+'<a href="#">'+msg.documents[i].title+"</a>"+"</h3>");
         $(".ebook>.book_contents").eq(i).append("<h6>"+msg.documents[i].authors+"</h6>");
 
         var str=msg.documents[i].contents;
         var str2=str.substring(0,30);
 
-        $(".ebook >.book_contents").eq(i).append("<p>"+'<a href="sub2.html">'+str2+"</a>"+"</p>")
+        $(".ebook >.book_contents").eq(i).append("<p>"+'<a href="#">'+str2+"</a>"+"</p>")
     }
 });
 
@@ -195,13 +195,13 @@ $.ajax({
 .done(function (msg){
     for(var i=0; i<12; i++){
         $(".sam>.book_contents").eq(i).append('<a href="#">'+"<img src='"+msg.documents[i].thumbnail+"'/>"+"</a>");
-        $(".sam>.book_contents").eq(i).append("<h3>"+'<a href="sub2.html">'+msg.documents[i].title+"</a>"+"</h3>");
+        $(".sam>.book_contents").eq(i).append("<h3>"+'<a href="#">'+msg.documents[i].title+"</a>"+"</h3>");
         $(".sam>.book_contents").eq(i).append("<h6>"+msg.documents[i].authors+"</h6>");
 
         var str=msg.documents[i].contents;
         var str2=str.substring(0,30);
 
-        $(".sam >.book_contents").eq(i).append("<p>"+'<a href="sub2.html">'+str2+"</a>"+"</p>")
+        $(".sam >.book_contents").eq(i).append("<p>"+'<a href="#">'+str2+"</a>"+"</p>")
     }
 });
 
@@ -221,13 +221,13 @@ $.ajax({
 .done(function (msg){
     for(var i=0; i<12; i++){
         $(".record>.book_contents").eq(i).append('<a href="#">'+"<img src='"+msg.documents[i].thumbnail+"'/>"+"</a>");
-        $(".record>.book_contents").eq(i).append("<h3>"+'<a href="sub2.html">'+msg.documents[i].title+"</a>"+"</h3>");
+        $(".record>.book_contents").eq(i).append("<h3>"+'<a href="#">'+msg.documents[i].title+"</a>"+"</h3>");
         $(".record>.book_contents").eq(i).append("<h6>"+msg.documents[i].authors+"</h6>");
 
         var str=msg.documents[i].contents;
         var str2=str.substring(0,30);
 
-        $(".record >.book_contents").eq(i).append("<p>"+'<a href="sub2.html">'+str2+"</a>"+"</p>")
+        $(".record >.book_contents").eq(i).append("<p>"+'<a href="#">'+str2+"</a>"+"</p>")
     }
 });
 
