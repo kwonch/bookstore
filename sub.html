@@ -13,6 +13,7 @@
     <script src="js/common.js"></script>
     <script src="sub_js/sub_category.js"></script>
     <script src="sub_js/sub_slide_ajax.js"></script>
+    <script src="sub_js/sub_get_text_book_infor.js"></script>
 
 </head>
 
@@ -509,19 +510,158 @@
 
                
             </div>
+           
+
+               
+
             <div class="book_intro">
                 <div class="book_intro_left">
                     <div class="book_intro_left_title">
-                    <ul>
-                        <li><a href="#">상품정보</a></li>
-                        <li><a href="#">회원리뷰</a></li>
+                      <ul class="book_intro_left_title_2">
+                        <li><a class="book_title_click" href=".book_infor">상품정보</a></li>
+                        <li><a href=".book_intro_left_title2">회원리뷰</a></li>
                         <li><a href="#">교환/반품/품절</a></li>
-                    </ul>
+                      </ul>
+                      <div class="book_infor">
+                        <h3>책 소개</h3>
+                        <span><strong>이 책이 속한 분야</strong></span><br>
+                        <span>소설 > 한국소설 > 한국소설일반</span>
+                        <h5>이 책의 주제어</h5>
+                        <div class="book_infor_2">
+                            <ul>
+                                <li>#한국소설</li>
+                                <li>#희로애락</li>
+                                <li>#삶</li>
+                                <li>#위로</li>
+                            </ul>
+                           
+                        </div><br><br>
+                        <div class="book_infor_3"></div>
+                        <div class="book_infor_4"></div>
+                        <div class="book_infor_5">
+                            <h3>상세 이미지</h3>
+                  
+                            <img src="sub_img/book_infor.jpg">
+                        </div>
+                        <div class="book_infor_6">
+                            <h3>저자소개</h3>
+                            <div class="author">
+                              <img src="sub_img/author.jpg">
+                              <span>저자:김호연</span>
+                              <a href="#">작가정보</a>
+                              <a href="#">관심작가 등록</a>
+
+                              <ul>
+                                  <li>현대문학가 > 소설가</li>
+                                  <li>영화인 > 시나리오작가</li>
+                              </ul>
+                              <br>
+                              <br>
+                              <div class="author_text">
+                                  <div class="author_text_1"></div>
+                                  <div class="author_text_2"></div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="book_intro_left_title2">
+                        <ul class="book_intro_left_title_2">
+                            <li><a  href=".book_infor">상품정보</a></li>
+                            <li><a class="book_title_click" href=".book_intro_left_title2">회원리뷰</a></li>
+                            <li><a href="#">교환/반품/품절</a></li>
+                          </ul>
+                          <h3>리뷰</h3>
+                          <div class="review_top">
+                            <span>도움순</span>
+                            <span>최신순</span>
+                          </div>
+                          <ul class="review_list">
+                            <li>
+                                <div class="list_wrap">
+                                    <dl>
+                                        <dt class="id">ab**efg</dt>
+                                        <dd class="date">2021-09-31</dd>
+                                        <dd class="time">18:27:25</dd>
+                                        <dd class="ra"><img src="sub_img/review.jpg"></dd>
+                                        <dd class="coment"><div class="coment_text">
+                                            읽는 내내 웃음과 감동이 가득함을 느꼈습니다. 읽을수록 뒷이야기가 궁금해지고 눈물도 훔쳤다가 집 앞 편의점에서도 어떤이야기가 있을것같은 상상의 나래도 펼쳐보았던것 같습니다
+                                        </div>
+                                        </dd>
+                                        <dd></dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_wrap">
+                                    <dl>
+                                        <dt class="id">rnj**cjf</dt>
+                                        <dd class="date">2021-10-01</dd>
+                                        <dd class="time">15:56:11</dd>
+                                        <dd class="ra"><img src="sub_img/review.jpg"></dd>
+                                        <dd class="coment"><div class="coment_text">
+                                            재미와 감동을 동시에 주는 책입니다. 꾸미지 않은 일상의 삶을 그대로 옮겨놓았지만 우리가 생각해보지 못하고 지나쳤던 소소한 삶의 문제들을 아무렇지 않게, 하지만 깊이있게 짚어주는 책입니다. 마지막 부분을 읽으면서는 저도 울었어요. 아마 다들 그러실 듯.
+                                        </div>
+                                        </dd>
+                                        <dd></dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_wrap">
+                                    <dl>
+                                        <dt class="id">tkwkd**ghf</dt>
+                                        <dd class="date">2021-10-02</dd>
+                                        <dd class="time">18:02:56</dd>
+                                        <dd class="ra"><img src="sub_img/review.jpg"></dd>
+                                        <dd class="coment"><div class="coment_text">
+                                            정말 잘 읽혀요... 재미와 감동이 있어요.. 우리 세상살이 이야기 이지만 퐌타지에 가까운 이야기 이지요... 그래서 더 가볍게 잘 읽을 수 있었어요.. 책내용에 한부분처럼 정말 연극이나 드라마로 나오면 좋겠어요~~
+                                        </div>
+                                        </dd>
+                                        <dd></dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_wrap">
+                                    <dl>
+                                        <dt class="id">gh**alemf</dt>
+                                        <dd class="date">2021-10-03</dd>
+                                        <dd class="time">21:38:10</dd>
+                                        <dd class="ra"><img src="sub_img/review.jpg"></dd>
+                                        <dd class="coment"><div class="coment_text">
+                                            와 밤새 한번만에 읽어버렸어요~ 쌍둥이 아빠 초콜릿 이야기에서는 눈물펑펑 흘렸네요ㅜㅜ 작가님이 마음이 따뜻하신 분 같아요. 이전작 망원동브라더스도 한 번 읽어보려고 합니다.
+                                        </div>
+                                        </dd>
+                                        <dd></dd>
+                                    </dl>
+                                </div>
+                            </li>
+                          </ul>
+                          <div class="page_next">
+                            <i class="fas fa-angle-double-left"></i>
+                            <i class="fas fa-angle-left"></i>
+                            <ul>
+                                <li>1</li>
+                                <li>2</li>
+                                <li>3</li>
+                                <li>4</li>
+                                <li>5</li>
+                                <li>6</li>
+                                <li>7</li>
+                                <li>8</li>
+                                <li>9</li>
+                                <li>10</li>
+                            </ul>
+                            <i class="fas fa-angle-right"></i>
+                            <i class="fas fa-angle-double-right"></i>
+                        
+                          </div>
                     </div>
                 </div>
 
                 <div class="book_intro_right">
-
+                  
                 </div>
             </div>
          </div>
