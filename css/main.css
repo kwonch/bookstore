@@ -55,7 +55,7 @@
 .book_box_wrap{width: 100%; height: 400px;}
 .book_box_wrap>.book_contents_box{ width: 100%;height: 100%;}
 .book_contents{width: 252px; height: 350px;  border:1px solid #ccc;text-align: center; padding:30px;float: left; margin-right: 64px; margin-top: 20px;}
-.book_contents_box>div:last-of-type{margin: 0;}
+.book_contents_box>div:last-of-type{margin-right: 0;}
 .book_contents_box:not(:first-of-type){display: none;}
 .book_box_wrap:not(:nth-child(2)){display: none;}
 
