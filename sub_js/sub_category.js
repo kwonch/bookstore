@@ -60,7 +60,7 @@ $.ajax({
 })
 
 .done(function (msg){
-    for(var i=0; i<6; i++){
+    for(var i=0; i<1; i++){
        
         $(".book_in_right_title_2 ").eq(i).append("<h2>"+msg.documents[i].title+"</h2>");
         $(".price_1").eq(i).append("<span>"+msg.documents[i].price+"원</span>");
