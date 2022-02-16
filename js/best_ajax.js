@@ -277,7 +277,7 @@ $.ajax({
 })
 
 .done(function (msg){
-    for(var i=0; i<10; i++){
+    for(var i=0; i<1; i++){
         $(".side_wrap>.side_top_3").eq(i).append('<a href="#">'+"<img src='"+msg.documents[i].thumbnail+"'/>"+"</a>");
         $(".side_wrap>.side_top_3").eq(i).append("<h3>"+'<a href="#">'+msg.documents[i].title+"</a>"+"</h3>");
         $(".side_wrap>.side_top_3").eq(i).append("<h6>"+msg.documents[i].authors+"</h6>");

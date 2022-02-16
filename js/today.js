@@ -132,7 +132,7 @@ $.ajax({
     method: "GET",
     url: "https://dapi.kakao.com/v3/search/book?target=title",
     data: {
-        query: "돈의 속성(150쇄 기념 에디션)",
+        query: "돈",
         size: 10
     },
     headers: {
