@@ -47,7 +47,7 @@ $.ajax({
     url: "https://dapi.kakao.com/v3/search/book?target=title",
     data: {
         query: "불편한 편의점",
-        size: 7
+        size: 1
     },
     headers: {
         Authorization: "KakaoAK 9c0fe9e4d691d7756ab6ad4fc9524dee"
@@ -55,7 +55,7 @@ $.ajax({
 })
 
 .done(function (msg){
-    for(var i=0; i<7; i++){
+    for(var i=0; i<1; i++){
         $(".daily>.daily_other").eq(i).append('<a href="#">'+"<img src='"+msg.documents[i].thumbnail+"'/>"+"</a>");
         $(".daily>.daily_other").eq(i).append("<h3>"+'<a href="#">'+msg.documents[i].title+"</a>"+"</h3>");
         $(".daily>.daily_other").eq(i).append("<h6>"+msg.documents[i].authors+"</h6>");

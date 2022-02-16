@@ -11,7 +11,7 @@ $.ajax({
 })
 
 .done(function (msg){
-    for(var i=0; i<10; i++){
+    for(var i=0; i<1; i++){
         $(".good_ratings_first").eq(i).append('<a href="#">'+"<img src='"+msg.documents[i].thumbnail+"'/>"+"</a>");
         $(".good_ratings_first").eq(i).append("<h3>"+'<a href="#">'+msg.documents[i].title+"</a>"+"</h3>");
         $(".good_ratings_first").eq(i).append("<h6>"+msg.documents[i].authors+"</h6>");
@@ -35,7 +35,7 @@ $.ajax({
 })
 
 .done(function (msg){
-    for(var i=0; i<10; i++){
+    for(var i=0; i<1; i++){
         $(".good_ratings_second_1").eq(i).append('<a href="#">'+"<img src='"+msg.documents[i].thumbnail+"'/>"+"</a>");
         $(".good_ratings_second_1").eq(i).append("<h3>"+'<a href="#">'+msg.documents[i].title+"</a>"+"</h3>");
         $(".good_ratings_second_1").eq(i).append("<h6>"+msg.documents[i].authors+"</h6>");
@@ -60,7 +60,7 @@ $.ajax({
 })
 
 .done(function (msg){
-    for(var i=0; i<10; i++){
+    for(var i=0; i<1; i++){
         $(".good_ratings_second_2").eq(i).append('<a href="#">'+"<img src='"+msg.documents[i].thumbnail+"'/>"+"</a>");
         $(".good_ratings_second_2").eq(i).append("<h3>"+'<a href="#">'+msg.documents[i].title+"</a>"+"</h3>");
         $(".good_ratings_second_2").eq(i).append("<h6>"+msg.documents[i].authors+"</h6>");
@@ -90,7 +90,7 @@ $.ajax({
 
 
 .done(function (msg){
-    for(var i=0; i<10; i++){
+    for(var i=0; i<1; i++){
         $(".good_ratings_second_3").eq(i).append('<a href="#">'+"<img src='"+msg.documents[i].thumbnail+"'/>"+"</a>");
         $(".good_ratings_second_3").eq(i).append("<h3>"+'<a href="#">'+msg.documents[i].title+"</a>"+"</h3>");
         $(".good_ratings_second_3").eq(i).append("<h6>"+msg.documents[i].authors+"</h6>");
@@ -115,7 +115,7 @@ $.ajax({
 
 
 .done(function (msg){
-    for(var i=0; i<10; i++){
+    for(var i=0; i<1; i++){
         $(".good_ratings_second_4").eq(i).append('<a href="#">'+"<img src='"+msg.documents[i].thumbnail+"'/>"+"</a>");
         $(".good_ratings_second_4").eq(i).append("<h3>"+'<a href="#">'+msg.documents[i].title+"</a>"+"</h3>");
         $(".good_ratings_second_4").eq(i).append("<h6>"+msg.documents[i].authors+"</h6>");
@@ -141,7 +141,7 @@ $.ajax({
 })
 
 .done(function (msg){
-    for(var i=0; i<10; i++){
+    for(var i=0; i<1; i++){
         $(".Recommendation_book").eq(i).append('<a href="#">'+"<img src='"+msg.documents[i].thumbnail+"'/>"+"</a>");
         $(".Recommendation_book").eq(i).append("<h3>"+'<a href="#">'+msg.documents[i].title+"</a>"+"</h3>");
         $(".Recommendation_book").eq(i).append("<h6>"+msg.documents[i].authors+"</h6>");
@@ -165,7 +165,7 @@ $.ajax({
 })
 
 .done(function (msg){
-    for(var i=0; i<10; i++){
+    for(var i=0; i<1; i++){
         $(".Recommendation_book_1").eq(i).append('<a href="#">'+"<img src='"+msg.documents[i].thumbnail+"'/>"+"</a>");
         $(".Recommendation_book_1").eq(i).append("<h3>"+'<a href="#">'+msg.documents[i].title+"</a>"+"</h3>");
         $(".Recommendation_book_1").eq(i).append("<h6>"+msg.documents[i].authors+"</h6>");
@@ -189,7 +189,7 @@ $.ajax({
 })
 
 .done(function (msg){
-    for(var i=0; i<10; i++){
+    for(var i=0; i<1; i++){
         $(".Recommendation_book_2").eq(i).append('<a href="#">'+"<img src='"+msg.documents[i].thumbnail+"'/>"+"</a>");
         $(".Recommendation_book_2").eq(i).append("<h3>"+'<a href="#">'+msg.documents[i].title+"</a>"+"</h3>");
         $(".Recommendation_book_2").eq(i).append("<h6>"+msg.documents[i].authors+"</h6>");
@@ -213,7 +213,7 @@ $.ajax({
 })
 
 .done(function (msg){
-    for(var i=0; i<10; i++){
+    for(var i=0; i<1; i++){
         $(".Recommendation_book_3").eq(i).append('<a href="#">'+"<img src='"+msg.documents[i].thumbnail+"'/>"+"</a>");
         $(".Recommendation_book_3").eq(i).append("<h3>"+'<a href="#">'+msg.documents[i].title+"</a>"+"</h3>");
         $(".Recommendation_book_3").eq(i).append("<h6>"+msg.documents[i].authors+"</h6>");
@@ -238,7 +238,7 @@ $.ajax({
 })
 
 .done(function (msg){
-    for(var i=0; i<10; i++){
+    for(var i=0; i<1; i++){
         $(".Recommendation_book_4").eq(i).append('<a href="#">'+"<img src='"+msg.documents[i].thumbnail+"'/>"+"</a>");
         $(".Recommendation_book_4").eq(i).append("<h3>"+'<a href="#">'+msg.documents[i].title+"</a>"+"</h3>");
         $(".Recommendation_book_4").eq(i).append("<h6>"+msg.documents[i].authors+"</h6>");
